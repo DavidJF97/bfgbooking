@@ -23,7 +23,8 @@ data = responses.get_all_values()
 # Prompt the user to enter the guest's name for search
 print("Welcome to THE BUTTERFLY GUESTHOUSE guestbook\n")
 while True:
-    guest_name_to_search = input("""Enter the name of the guest the booking was made with:\n""")
+    guest_name_to_search = input("""Enter the name of the guest the booking was made with:
+(Or type 'exit' to leave)\n""")
     if guest_name_to_search.lower() == "exit":
         print("Exiting the program.")
         break
