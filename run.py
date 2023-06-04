@@ -21,7 +21,7 @@ responses = SHEET.worksheet('responses')
 data = responses.get_all_values()
 
 # Prompt the user to enter the guest's name for search
-guest_name_to_search = input("Enter the name of guest booking was made with: ")
+guest_name_to_search = input("Enter the name of guest booking was made with:\n")
 
 guest_found = False
 
