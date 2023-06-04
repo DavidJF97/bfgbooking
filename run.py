@@ -42,6 +42,7 @@ while True:
             room_type = row[5]
             additional_notes = row[6]
 
+            print("---")
             print(f"Guest Name: {guest_name}")
             print(f"Submit Date: {response_date}")
             print(f"Email: {email}")
