@@ -29,7 +29,7 @@ while True:
         print("Exiting the program.")
         break
 
-    guest_found = False
+    GUEST_FOUND = False
 
     for row in data[1:]:
         guest_name = row[1]
@@ -52,8 +52,8 @@ while True:
             print(f"Additional Notes: {additional_notes}")
             print("---")
 
-            guest_found = True
+            GUEST_FOUND = True
             break
 
-    if not guest_found:
+    if not GUEST_FOUND:
         print("Guest not found. Please try again.")
