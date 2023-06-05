@@ -39,7 +39,7 @@ I manually tested the project using the following methods:
 Only 1 Error "line too long (90 > 79 characters)" left as I felt this was okay to ignore for the sake of the line's presentation on the terminal.
 
 ## Deployment
-The site was deployed via [Heroku](https://dashboard.heroku.com/apps), and the live link can be found here: https://python*hngmn.herokuapp.com/
+The site was deployed via [Heroku](https://dashboard.heroku.com/apps), and the live link can be found here: https://bfgbooking.herokuapp.com/
 
 This project was developed utilising the Code Institute Template. Some of the deployment steps below are specifically required for the new CI template and may not be applicable to older versions, or different projects.
 
